@@ -1,0 +1,52 @@
+* {
+    font-family: Georgia, serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 20px;
+}
+
+ul .recipe {
+    text-align: center;
+    padding: 5px 0px;
+    background-color: blue;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}
+
+h2 {
+    padding: 20px 0px 5px 5px;
+}
+
+h3 {
+    padding: 10px 0px 5px 5px;
+}
+
+p {
+    padding: 10px 0px 5px 15px;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 20px;
+}
+
+ol li {
+    padding: 5px;
+}
