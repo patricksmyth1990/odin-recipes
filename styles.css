@@ -6,7 +6,7 @@
 
 h1 {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 ul {
@@ -17,8 +17,6 @@ ul {
 ul .recipe {
     text-align: center;
     padding: 5px 0px;
-    background-color: blue;
-    color: white;
 }
 
 img {
@@ -31,15 +29,16 @@ img {
 }
 
 h2 {
-    padding: 20px 0px 5px 5px;
+    margin: 20px 0px 5px 5px;
+    text-align: center;
 }
 
 h3 {
-    padding: 10px 0px 5px 5px;
+    margin: 15px 0px 0px 20px;
 }
 
 p {
-    padding: 10px 0px 5px 15px;
+    margin: 10px 0px 5px 15px;
 }
 
 ol {
@@ -49,4 +48,34 @@ ol {
 
 ol li {
     padding: 5px;
+}
+
+.toc {
+    margin: auto;
+    width: 30%;
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 10px 20px 10px;
+}
+
+.ingredients {
+    border: 2px solid #0073CF;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+img {
+    border: 0.5px solid gray;
+    border-radius: 5px;
 }
